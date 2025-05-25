@@ -126,3 +126,23 @@ address{
     font-size: 30pt;
     font-weight: bold;
 }
+
+nav {
+    background-color: rgb(87, 208, 230);
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+nav :hover {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
